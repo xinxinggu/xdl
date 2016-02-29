@@ -17,7 +17,7 @@ a, a:hover, a:visited, a:link{color: #000; text-decoration: none;}
 .text_a_line{text-decoration:underline;}
 select,input,img,select,span,label{vertical-align:middle;}
 
-#top{height: 30px; width: 100%; padding: 10px 0px; background-color: #fff; color: #000; line-height: 30px; position: fixed; top: 0;}
+#top{height: 30px; width: 100%; padding: 10px 0px; background-color: #fff; color: #000; line-height: 30px; position: fixed; top: 0; z-index: 999;}
 .logo{font-size: 18px; font-weight: 900; float: left; margin-left: 30px; position: relative; z-index: 999;}
 .navi{float: right; margin-right: 30px; position: relative; z-index: 999;}
 .navi ul li{margin: 0 20px;}
