@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+*{font-family:"微软雅黑"}
+body{font-size:12px;}
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd{margin:0;padding:0;border:0;}
+ul,ol,li{ list-style:none; float: left; }
+ul,ol{list-style-type:none;}
+a, a:hover, a:visited, a:link{color: #000; text-decoration: none;}
+.big12{ font-size:12px;}
+.big14{ font-size:14px;}
+.big16{ font-size:16px;}
+.big18{ font-size:18px;}
+.big20{ font-size:20px;}
+.bold{ font-weight:bold;}
+.yellow_duck{color:#feaa26}
+.v-sub{vertical-align:middle;}
+.text_a_line{text-decoration:underline;}
+select,input,img,select,span,label{vertical-align:middle;}
+
+#top{height: 30px; width: 100%; padding: 10px 0px; background-color: #fff; color: #000; line-height: 30px; position: fixed; top: 0;}
+.logo{font-size: 18px; font-weight: 900; float: left; margin-left: 30px; position: relative; z-index: 999;}
+.navi{float: right; margin-right: 30px; position: relative; z-index: 999;}
+.navi ul li{margin: 0 20px;}
+
+.navi_list{display: none; position: absolute; background-color: #fff; border-top: 2px solid rgb(26,187,156); margin-top: 10px; color: #000; padding: 30px 15px;}
+.navi_list img{height: 20px;}
+.navi_list_all{display: none; position: fixed; left: 1%; width: 95%; background-color: #fff; border-top: 2px solid rgb(26,187,156); margin-top: 10px; color: #000; padding: 30px 15px;}
+.block{float: left; margin: 15px 40px;}
+.title{font-size: 20px; font-weight: 900; border-left: 5px solid #000; padding-left: 15px;}
+/*top结束*/
+
+#title{background-color: rgb(26,187,156); height: 50px; line-height: 50px; padding: 0 3%; color: #fff; margin-top: 50px; position: fixed; width: 94%; top: 0px;}
+.class_left{float: left; font-size: 20px;}
+.class_right{float: right; font-size: 16px;}
+.class_right li{padding: 0 15px;}
+.class_right .on{background-color: rgb(22,159,132);}
+
+#text{padding: 30px; text-align: left; line-height: 200%; font-size: 14px; min-height: 350px; margin-top: 100px;}
+.text_title{font-size: 20px; font-weight: 900;}
+#text img{width: 70%; margin: 15px 15%;}
+
+/*foot开始*/
+#foot{margin-top: 50px;}
+.hr{height: 3px; border: none; border-top: 3px solid rgb(199,199,199);  margin: 0; padding: 0; margin-top: 30px;}
+.info{font-size: 14px; line-height: 200%; padding: 20px 5%; background-color: rgb(221,221,221);}
