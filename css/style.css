@@ -18,15 +18,31 @@ a, a:hover, a:visited, a:link{color: #000; text-decoration: none;}
 .text_a_line{text-decoration:underline;}
 .clearfix{clear: both; border: 0; margin: 0; padding: 0;}
 select,input,img,select,span,label{vertical-align:middle;}
+.box-shadow{  
+  
+         /*//Firefox4.0-  */
+  
+         /*-moz-box-shadow:投影方式 X轴偏移量 Y轴偏移量阴影模糊半径 阴影扩展半径 阴影颜色;  */
+         -moz-box-shadow: 4px 4px 4px #000;  
+  
+         /*//Safariand Google chrome10.0-  */
+  
+         -webkit-box-shadow:4px 4px 4px #000; 
+  
+         /*Firefox4.0+、 Google chrome 10.0+ 、 Oprea10.5+ and IE9  */
+  
+         box-shadow:  4px 4px 4px #000;   
+  
+}  
 
 #top{height: 30px; width: 100%; padding: 10px 0px; background-color: rgb(35,95,147); color: #fff; line-height: 30px; position: fixed; z-index: 999;}
 .logo{font-size: 18px; font-weight: 900; float: left; margin-left: 30px; position: relative; z-index: 999;}
 .navi{float: right; margin-right: 30px; position: relative; z-index: 999;}
 .navi ul li{margin: 0 20px;}
 #pic img{width: 100%; margin-top: 0px; z-index: 1; position: absolute;}
-.pic_left{ width: 40px; height: 40px; line-height: 40px; text-align: center; font-size: 24px; font-weight: 900; color: #fff; background-color: #000;  -moz-opacity: 0.5; opacity:.50; filter: alpha(opacity=50); position: absolute; left: 0; top: 300px; z-index: 999;}
-.pic_right{ width: 40px; height: 40px; line-height: 40px; text-align: center; font-size: 24px; font-weight: 900; color: #fff; background-color: #000;  -moz-opacity: 0.5; opacity:.50; filter: alpha(opacity=50); position: absolute; right: 0; top: 300px; z-index: 999;}
-#txt{z-index: 9; position: relative; font-size: 60px; font-weight: 900; color: #fff; margin: 0px auto; width: 100%; text-align: center; padding-top: 300px;}
+.pic_left{ width: 40px; height: 40px; line-height: 40px; text-align: center; font-size: 24px; font-weight: 900; color: #fff; background-color: #000;  -moz-opacity: 0.5; opacity:.50; filter: alpha(opacity=50); position: absolute; left: 0; top: 300px; z-index: 999; cursor: pointer;}
+.pic_right{ width: 40px; height: 40px; line-height: 40px; text-align: center; font-size: 24px; font-weight: 900; color: #fff; background-color: #000;  -moz-opacity: 0.5; opacity:.50; filter: alpha(opacity=50); position: absolute; right: 0; top: 300px; z-index: 999; cursor: pointer;}
+#txt{z-index: 9; position: relative; font-size: 60px; font-weight: 900; color: #fff; margin: 0px auto; width: 100%; text-align: center; padding-top: 25%;}
 #more{z-index: 9; position: relative; color: rgb(167,215,246); width: 80px; font-size: 20px; font-weight: 300; margin: 80px auto 30px; border: 2px solid rgb(167,215,246); border-radius: 5px; padding: 15px;}
 .show{font-size: 20px; height: 200px; color: #fff; margin-top: 250px; display: none;}
 .show table{height: 200px; width: 90%; margin:0 auto; text-align: center; cellpadding:0; cellspacing:0;}
@@ -47,8 +63,8 @@ select,input,img,select,span,label{vertical-align:middle;}
 #foot{margin-top: 0px; height: 50px; position: absolute; width: 100%;}
 .hr{height: 3px; border: none; border-top: 3px solid rgb(199,199,199);  margin: 0; padding: 0;}
 .info{font-size: 14px; line-height: 200%; padding: 20px 5%; background-color: rgb(221,221,221);}
-.navi_list{display: none; position: absolute; background-color: #fff; border-top: 2px solid rgb(26,187,156); margin-top: 10px; color: #000; padding: 30px 15px;}
+.navi_list{display: none; position: absolute; background-color: #fff; border-top: 2px solid rgb(26,187,156); margin-top: 10px; color: #000; padding: 15px;}
 .navi_list img{height: 20px;}
-.navi_list_all{display: none; position: fixed; left: 1%; width: 95%; background-color: #fff; border-top: 2px solid rgb(26,187,156); margin-top: 10px; color: #000; padding: 30px 15px;}
+.navi_list_all{display: none; position: fixed; left: 1%; width: 95%; background-color: #fff; border-top: 2px solid rgb(26,187,156); margin-top: 10px; color: #000; padding: 15px;}
 .block{float: left; margin: 15px 40px;}
 .title{font-size: 20px; font-weight: 900; border-left: 5px solid #000; padding-left: 15px;}
