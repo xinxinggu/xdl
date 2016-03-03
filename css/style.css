@@ -63,8 +63,9 @@ select,input,img,select,span,label{vertical-align:middle;}
 #foot{margin-top: 0px; height: 50px; position: absolute; width: 100%;}
 .hr{height: 3px; border: none; border-top: 3px solid rgb(199,199,199);  margin: 0; padding: 0;}
 .info{font-size: 14px; line-height: 200%; padding: 20px 5%; background-color: rgb(221,221,221);}
-.navi_list{display: none; position: absolute; background-color: #fff; border-top: 2px solid rgb(26,187,156); margin-top: 10px; color: #000; padding: 15px;}
+.navi_list{display: none; position: absolute; background-color: #fff; border-top: 2px solid rgb(26,187,156); margin-top: 10px; color: #000; padding: 15px; min-width: 70px;}
 .navi_list img{height: 20px;}
 .navi_list_all{display: none; position: fixed; left: 1%; width: 95%; background-color: #fff; border-top: 2px solid rgb(26,187,156); margin-top: 10px; color: #000; padding: 15px;}
 .block{float: left; margin: 15px 40px;}
 .title{font-size: 20px; font-weight: 900; border-left: 5px solid #000; padding-left: 15px;}
+.marginLeftM30{margin-left: -30px;}
